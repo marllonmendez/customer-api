@@ -18,7 +18,7 @@ public class CustomerController {
     @Autowired
     private ICustomerRepository customerRepository;
 
-    private final String routerOrigins = "*";
+    private final String routerOrigins = "http://localhost:5173/";
 
     @CrossOrigin(origins = routerOrigins, allowedHeaders = "*")
     @PostMapping("/create")

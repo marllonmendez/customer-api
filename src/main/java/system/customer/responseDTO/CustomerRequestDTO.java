@@ -1,3 +1,3 @@
 package system.customer.responseDTO;
 
-public record CustomerRequestDTO(int document, int numberPhone, String name, String email) {}
+public record CustomerRequestDTO(long document, long numberPhone, String name, String email) {}

@@ -19,8 +19,8 @@ public class CustomerModel {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String name;
-    private int document;
-    private int numberPhone;
+    private long document;
+    private long numberPhone;
     private String email;
 
     public CustomerModel(CustomerRequestDTO data) {

@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>system</groupId>
 	<artifactId>customer</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<name>customer</name>
 	<description>Sistema de registo e busca de clientes</description>
 	<properties>
