@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>system</groupId>
 	<artifactId>customer</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2-SNAPSHOT</version>
 	<name>customer</name>
-	<description>Sistema de registo e busca de clientes</description>
+	<description>API de registro e listagem de clientes</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
