@@ -1,6 +1,6 @@
 package system.customer.model;
 
-import system.customer.responseDTO.CustomerRequestDTO;
+import system.customer.requestDTO.CustomerRequestDTO;
 
 import lombok.*;
 import jakarta.persistence.*;
