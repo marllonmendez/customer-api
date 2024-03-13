@@ -22,7 +22,6 @@ public class CustomerController {
 
     private final String routerOrigins = "http://localhost:5173/";
 
-    // HashMap para armazenar clientes por documento
     private final Map<String, CustomerModel> customerModelDocumentMap = new HashMap<>();
 
     @CrossOrigin(origins = routerOrigins, allowedHeaders = "*")
@@ -39,8 +38,6 @@ public class CustomerController {
         }
 
         var customerCreated = customerRepository.save(customerModelData);
-
-        // Adiciona o cliente ao HashMap usando o documento como chave
         customerModelDocumentMap.put(customerCreated.getDocument(), customerCreated);
 
         return ResponseEntity.ok(customerCreated);
